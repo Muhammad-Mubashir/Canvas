@@ -1,0 +1,24 @@
+@mixin margin($a,$b,$c,$d){
+	margin: $a $b $c $d;
+}
+@mixin padding($a,$b,$c,$d){
+	padding: $a $b $c $d;
+}
+@mixin heading(){
+	font-family: Open Sans;
+	color: #333333;
+	font-weight: 700;
+	font-size:40px;
+}
+@mixin para(){
+	font-family: Open Sans;
+	color: #555555;
+	font-weight: 300;
+	font-size:18px;
+}
+@mixin radius($a,$b,$c,$d){
+	border-radius:$a $b $c $d;
+	-webkit-border-radius:$a $b $c $d;
+	-moz-border-radius:$a $b $c $d;
+	-o-border-radius:$a $b $c $d;
+}
